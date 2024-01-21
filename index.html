@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="warpper">
+      <h2 class="header">To Do List</h2>
+      <div>
+        <input
+          type="text"
+          class="input-todo"
+          id="input-todo"
+          placeholder="ป้อนรายการที่ต้องการ"
+        />
+        <button type="button" onclick="AddToDoItems()" class="btn-add">
+          เพิ่มรายการ
+        </button>
+      </div>
+      <div>
+        <ul id="todo-lists"></ul>
+      </div>
+    </div>
+
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

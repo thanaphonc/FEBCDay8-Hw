@@ -1,0 +1,54 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.warpper {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.input-todo {
+  border: 1px solid hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 100%);
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-add {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-delete {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: hsl(0, 100%, 39%);
+  color: hsl(0, 0%, 100%);
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 97%);
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+li div {
+  padding: 12px 12px;
+  font-size: 16px;
+}
